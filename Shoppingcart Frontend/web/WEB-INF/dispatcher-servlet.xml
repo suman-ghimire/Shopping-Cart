@@ -15,6 +15,7 @@
     <context:annotation-config/>
     <mvc:annotation-driven/>
     <context:component-scan base-package="com.sumang.shoppingcart.frontend.controller"/>
+    <context:component-scan base-package="com.sumang.shoppingcart.backend"/>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
